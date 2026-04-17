@@ -17,11 +17,12 @@
         <h1 class = "glow-text-static" style = "margin: 0; text-align: center;" >Paroļu ģenerators</h1>
         <a class = "glow-text" style = "font-size: 2rem; text-decoration: none;" href = "index.html">Izvēlne</a>
 
-        <input type = "range" id = "input" min = "0" max = "40" value = "50" step = "1">
-
-        <input type="checkbox" name="Burti" id="">
-        <input type="checkbox" name="Cipari" id="">
-        <input type="checkbox" name="Simboli" id="">
+    <div class="divs" style="display: block; width: 74vh; height: 14vh;">
+        <input type = "range" id = "inputSlider" min = "0" max = "40" value = "20" step = "1" class = "slider">
+        <a class="glow-text-static" style = "font-size: 2rem">Paroles garums:</a>
+        <a id="sliderValue" class="glow-text-static" style = "font-size: 2rem">20</a>
+        <button onclick="console.log(genPass())">Ģenerēt!</button>
+    </div>
 
         <!-- kādas rakstzīmes iekļaut
         utt kkads random bs
@@ -30,6 +31,7 @@
     </div>
 
     <div id="particles-js"></div>
+    <script src="passgen.js"></script>
     <script src="particles.js"></script>
     <script src="loadparticles.js"></script>
 </body>
