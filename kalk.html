@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="divs" style="display: block; width: 80vh; height: 45vh;">
+
+        <h1 class = "glow-text-static" style = "margin: 0; text-align: center;" >Prog Kalkators</h1>
+        <hr class="glowline"></hr>
+        <a class = "glow-text" style = "font-size: 2rem; text-decoration: none;" href = "index.html">Izvēlne</a>
+    </div>
+
+    <div class="divs" style="display: block; width: 74vh; height: 18vh; margin-top: 8vh;">
+
+        <div class="ievade">
+            <h1 class = "glow-text-static" style="margin: 0; font-size: 1rem;">Decimāl</h1>
+            <input type="text" id="10" oninput="partaisit(this, 10)">
+        </div>
+    
+        <div class="ievade">
+            <h1 class = "glow-text-static" style="margin: 0; font-size: 1rem;">Binārais</h1>
+            <input type="text" id="2" oninput="partaisit(this, 2)">
+        </div>
+    
+        <div class="ievade">
+            <h1 class = "glow-text-static" style="margin: 0; font-size: 1rem;">Heksadekālais</h1>
+            <input type="text" id="16" oninput="partaisit(this, 16)">
+        </div>
+    
+        <div class="ievade">
+            <h1 class = "glow-text-static" style="margin: 0; font-size: 1rem;">Oktālais</h1>
+            <input type="text" id="8" oninput="partaisit(this, 8)">
+        </div>
+
+    </div>
+
+    <div id="particles-js"></div>
+    <script src="kalk.js"></script>
+    <script src="particles.js"></script>
+    <script src="loadparticles.js"></script>
+</body>
+</html>
+
+	

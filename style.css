@@ -133,3 +133,16 @@ canvas
   background: #a569ff;
   cursor: pointer;
 }
+
+.glowline
+{
+
+  border: 0;
+  height: 1px;
+  background: #A569FF;
+  box-shadow: 
+    0 0 10px #a569ff,
+    0 0 20px #a569ff,
+    0 0 30px #a569ff;
+
+}

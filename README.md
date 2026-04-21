@@ -6,5 +6,5 @@ particles.json
 particles.js
 loadparticles.js
 
-pats nēesmu rakstijis, nav mans esmu tikai pievienojis.
-viss pārējais ir.
+particles.js nav mans tas ir library
+datu masīvs ir particles.json (konfigurācija priekš šī library)
